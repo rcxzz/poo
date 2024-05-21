@@ -1,0 +1,1 @@
+Um argumento do tipo int é passado para um método usando a chamada por valor.

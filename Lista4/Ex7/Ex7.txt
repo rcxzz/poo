@@ -1,0 +1,1 @@
+Para que um membro (atributo ou método) só possa ser acessado por outros membros da mesma classe, o modificador de acesso private deve ser usado.
