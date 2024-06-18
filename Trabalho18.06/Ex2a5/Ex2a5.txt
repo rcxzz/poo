@@ -1,0 +1,17 @@
+2-Para uma subclasse executar os construtores de uma superclasse, ela deve extender a superclasse, usando a palavra extends
+  e declarando após o nome da subclasse. EX: public class CD extends Item(){}.
+
+3-Sim, o comando super() é uma chamada para o construtor da superclasse.
+
+4-Não, ao criar o construtor da subclasse, a 1° coisa que deve ser feita é chamar super().
+
+5-
+a)  
+    Classe A 
+     m1(), m2(), m3()
+    Classe B
+     m4(), m5()
+
+b)M1(), M2() e M3().
+c)M1(), M2(), M3(), M4() e M5().
+d)M2(), M3(), M4() e M5().
