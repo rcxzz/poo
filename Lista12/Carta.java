@@ -11,8 +11,8 @@ public class Carta{
     private Valor valor;
 
     public Carta(Naipe naipe, Valor valor){
-        this.naipe = naipe;
-        this.valor = valor;
+        this.naipe=naipe;
+        this.valor=valor;
     }
 
     @Override
