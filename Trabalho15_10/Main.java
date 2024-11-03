@@ -32,7 +32,7 @@ public class Main {
             cliente1.adicionarEmprestimo(emprestimo1); // Adiciona o empréstimo ao cliente
 
             // Cliente 2 tenta emprestar o mesmo livro físico
-            livro1.emprestar(); // Isso deve lançar a exceção
+            livro1.emprestar(); // Lançando a exceção
             Emprestimo emprestimo2 = new Emprestimo(cliente2, livro1, LocalDate.now(), LocalDate.now().plusDays(7));
             cliente2.adicionarEmprestimo(emprestimo2); // Adiciona o empréstimo ao cliente
 
