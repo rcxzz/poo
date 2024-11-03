@@ -1,19 +1,19 @@
 import java.time.LocalDate; // Importa a classe LocalDate para manipulação de datas
 
 public class Emprestimo {
-    private Cliente cliente; // Cliente que fez o empréstimo
-    private Livro livro; // Livro que foi emprestado
-    private LocalDate dataEmprestimo; // Data do empréstimo
-    private LocalDate dataDevolucao; // Data de devolução
-    private StatusEmprestimo status; // Status do empréstimo
+    private Cliente cliente; 
+    private Livro livro; 
+    private LocalDate dataEmprestimo; 
+    private LocalDate dataDevolucao; 
+    private StatusEmprestimo status;
 
       // Construtor da classe Emprestimo
     public Emprestimo(Cliente cliente, Livro livro, LocalDate dataEmprestimo, LocalDate dataDevolucao) {
-        this.cliente = cliente; // Inicializa o cliente que fez o empréstimo
-        this.livro = livro; // Inicializa o livro que foi emprestado
-        this.dataEmprestimo = dataEmprestimo; // Inicializa a data do empréstimo
-        this.dataDevolucao = dataDevolucao; // Inicializa a data de devolução
-        this.status = StatusEmprestimo.EM_ANDAMENTO; // Define o status inicial como "EM_ANDAMENTO"
+        this.cliente = cliente; 
+        this.livro = livro; 
+        this.dataEmprestimo = dataEmprestimo; 
+        this.dataDevolucao = dataDevolucao;
+        this.status = StatusEmprestimo.EM_ANDAMENTO; 
     }
 
     // Método para devolver o livro
@@ -28,6 +28,6 @@ public class Emprestimo {
 
     // Método getter para acessar o status do empréstimo
     public StatusEmprestimo getStatus() {
-        return status; // Retorna o status do empréstimo
+        return status;
     }
 }
