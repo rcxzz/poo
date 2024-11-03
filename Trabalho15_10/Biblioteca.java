@@ -1,12 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Classe que representa a biblioteca
 public class Biblioteca {
     private List<Livro> livros; // Lista de livros disponíveis na biblioteca
     private List<Cliente> clientes; // Lista de clientes cadastrados na biblioteca
 
-    // Construtor da classe Biblioteca
     public Biblioteca() {
         this.livros = new ArrayList<>(); // Inicializa a lista de livros
         this.clientes = new ArrayList<>(); // Inicializa a lista de clientes
@@ -14,22 +12,22 @@ public class Biblioteca {
 
     // Método para adicionar um livro à biblioteca
     public void adicionarLivro(Livro livro) {
-        livros.add(livro); // Adiciona o livro à lista de livros
+        livros.add(livro); 
     }
 
     // Método para adicionar um cliente à biblioteca
     public void adicionarCliente(Cliente cliente) {
-        clientes.add(cliente); // Adiciona o cliente à lista de clientes
+        clientes.add(cliente); 
     }
 
     // Método getter para acessar a lista de livros
     public List<Livro> getLivros() {
-        return livros; // Retorna a lista de livros
+        return livros; 
     }
 
     // Método getter para acessar a lista de clientes
     public List<Cliente> getClientes() {
-        return clientes; // Retorna a lista de clientes
+        return clientes; 
     }
 
     // Método para buscar um livro pelo título
