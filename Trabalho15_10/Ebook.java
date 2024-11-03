@@ -1,4 +1,3 @@
-// Classe que representa um eBook, que herda da classe Livro
 public class Ebook extends Livro implements Emprestavel {
     // Construtor da classe Ebook
     public Ebook(String titulo, String autor, String categoria) {
