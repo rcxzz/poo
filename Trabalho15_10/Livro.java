@@ -1,8 +1,7 @@
-// Classe abstrata que representa um livro
 public abstract class Livro {
-    private String titulo; // Título do livro
-    private String autor;  // Autor do livro
-    private String categoria; // Categoria do livro
+    private String titulo;
+    private String autor;
+    private String categoria; 
 
     // Construtor da classe Livro
     public Livro(String titulo, String autor, String categoria) {
