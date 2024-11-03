@@ -1,11 +1,10 @@
-// Classe que representa um livro físico, que herda da classe Livro
 public class LivroFisico extends Livro implements Emprestavel {
-    private int exemplaresDisponiveis; // Número de exemplares disponíveis
+    private int exemplaresDisponiveis;
 
     // Construtor da classe LivroFisico
     public LivroFisico(String titulo, String autor, String categoria, int exemplares) {
-        super(titulo, autor, categoria); // Chama o construtor da classe pai
-        this.exemplaresDisponiveis = exemplares; // Inicializa o número de exemplares
+        super(titulo, autor, categoria);
+        this.exemplaresDisponiveis = exemplares;
     }
 
     // Implementação do método podeEmprestar
