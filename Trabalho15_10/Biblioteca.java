@@ -31,7 +31,7 @@ public class Biblioteca {
     }
 
     // Método para buscar um livro pelo título
-    public Livro buscarLivroPorTitulo(String titulo) {
+    public Livro buscarLivro(String titulo) {
         for (Livro livro : livros) {
             // Compara o título do livro com o título buscado (ignora maiúsculas/minúsculas)
             if (livro.getTitulo().equalsIgnoreCase(titulo)) {
